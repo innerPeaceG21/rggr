@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pangolin', Arial;
+    background-color:#030B1A;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+/* loader */
+.loader{
+    background-color: #000308;
+    position: absolute;
+    width: 100%;
+    height: 100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader img{
+    width: 30vw;
+    border-radius: 49%;
+}
+/* loader */
+/* navbar */
+.navbar{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    color: white;
+
+}
+
+.navbar .logo img{
+    width: 10vw;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+}
+.navbar .menu img{
+
+    width: 10vw;
+}
+/* navbar */
+
+/* header */
+header h1{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-left: 2%;
+    margin-top: 5rem;
+    font-weight: 500;
+}
+header span{
+    color: rgb(255, 180, 94);
+    text-transform: capitalize;
+}
+/* header */
+
+/* main */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.box1{
+    margin-top: 2rem;
+    background-image: url(../ASSCT/bio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box2{
+    margin-top: 4rem;
+    background-image: url(../ASSCT/phy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    margin-top: -1rem;
+    background-image: url(../ASSCT/history.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box4{
+    margin-top: 1rem;
+    background-image: url(../ASSCT/geo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 90%;
+    height: 25vh;
+    border-radius: 1rem;
+    background-color: rgba(82, 82, 82, 0.189);
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.box h2{
+    text-shadow:0.2rem 0.2rem 0.5rem #030B1A;
+    font-family: 'Pangolin', cursive;
+    color: whitesmoke;
+    background-color: transparent;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding: 1rem;
+}
+/* main */

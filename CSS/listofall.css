@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000814;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-left: 2%;
+    padding-top: 6rem;
+    font-weight: 500;
+    font-family: 'Pangolin', Arial;
+}
+header span{
+    color: rgb(255, 166, 64);
+    text-transform: capitalize;
+}
+
+.listbox{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem 0;
+    height: 100%;
+    margin-top: 1rem;
+}
+.listbtn{
+    width: 90%;
+    height: 15vh;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+    background:linear-gradient(45deg,#ffd60a,#ffc300);
+
+}
+.listbtn img{
+    width: 25%;
+    border-radius: 49%;
+    border: 3px #ffffff;
+    border-top-style: solid    ;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+    padding: 0.3rem;
+    background-color: #000814;
+}
+
+.listbtn p{
+    font-family: 'Cabin Sketch';
+    font-size: 1.7rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-shadow: 0.3rem 0.4rem 1rem rgb(0, 0, 0);
+}
+
+.navbar img{
+    width: 10vw;
+    border-radius: 0.3rem;
+}
+
+.navbar{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 0 3%;
+    color: white;
+}

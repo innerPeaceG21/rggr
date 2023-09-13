@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#030B1A;
+}
+
+header h1{
+    color: rgb(255, 160, 76);
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-left: 2%;
+    padding-top: 6rem;
+    font-weight: 500;
+    font-family: 'Pangolin', Arial;
+}
+
+#box{
+    background-color:#030B1A;
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    
+}
+
+.eachq{
+    margin-bottom: 3rem;
+}
+.eachq h1{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.eachq button{
+    height: 3rem;
+    width: 100%;
+    margin: 1rem 0;
+    outline: none;
+    border: 2px solid white ;
+    border-radius: 0.4rem;
+    background: transparent;
+    color: white;
+}
+.eachq button.green{
+color: black;
+background-color:chartreuse;
+}
+.eachq button.red{
+    color: black;
+    background-color:rgb(255, 187, 0);
+}
+
+#backnav{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 0 3%;
+    color: white;
+}
+
+#backnav img{
+    width: 10vw;
+    border-radius: 0.3rem;
+}
+
+#scorebox{
+    width: 75%;
+    height: 30vh;
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin:auto ;
+    margin:auto ;
+    transform: translateY(50%);
+    border-radius: 0.3rem;
+}
+
+#scorebox button{
+    width: 80%;
+    height: 3.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    text-transform: capitalize;
+    font-weight: 900;
+    background:linear-gradient(45deg,#ffd60a,#ffc300);
+}
+
+#scorebox p{
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    margin-left: 2%;
+    margin-top: 5rem;
+    font-weight: 700;
+    color: rgb(49, 27, 2);
+    font-weight: 500;
+}
